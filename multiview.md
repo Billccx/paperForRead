@@ -32,3 +32,21 @@ pipeline
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+## MetaPose: Fast 3D Pose from Multiple Views without 3D Supervision
+
+
+
+
+
