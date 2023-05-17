@@ -50,3 +50,47 @@ pipeline
 
 
 
+# Bottom Up
+
+
+
+
+
+
+
+
+
+## Single-Stage Multi-Person Pose Machines
+
+### 动机
+
+传统人体表示中，人体位置和关节点位置是割裂的
+
+两阶段方法仍存在计算冗余
+
+SPM通过人体根节点+其余节点驱根节点偏移量，将人体位置与关节点位置关联在一起
+
+首个单阶段多人姿态估计方法
+
+### 方法
+
+#### SPR表示
+
+引入辅助关节点：root  用于表示场景中一个人物的位置
+
+该人物身上的关节点j的位置由下式表示：
+$$
+\left(x_i^j, y_i^j\right)=\left(x_i^{\mathrm{r}}, y_i^{\mathrm{r}}\right)+\left(\delta x_i^j, \delta y_i^j\right)
+$$
+原点+位移的形式
+
+SPR的核心思想是用root节点+j个位移来表示人体姿态
+$$
+\mathcal{P}=\left\{\left(x_i^{\mathrm{r}}, y_i^{\mathrm{r}}\right),\left(\delta x_i^1, \delta y_i^1\right),\left(\delta x_i^2, \delta y_i^2\right), \ldots,\left(\delta x_i^K, \delta y_i^K\right)\right\}_{i=1}^N .
+$$
+
+
+#### 单阶段网络结构
+
+
+
