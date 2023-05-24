@@ -1,4 +1,4 @@
-# Multi-view Human Pose Estimation
+# Multi-view
 
 ## Generalizable Human Pose Triangulation
 
@@ -29,6 +29,14 @@ pipeline
 
 
 ## Learnable Triangulation of Human Pose
+
+
+
+
+
+
+
+## Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views
 
 
 
@@ -94,3 +102,22 @@ $$
 
 
 
+
+
+
+
+
+
+# VideoBased
+
+## 3D human pose estimation in video with temporal convolutions and semi-supervised training
+
+
+
+
+
+## DeciWatch: A Simple Baseline for 10× Efficient 2D and 3D Pose Estimation
+
+### 动机
+
+ImageBased计算开销过大
